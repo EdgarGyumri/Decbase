@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+/*
+	General Styles
+*/
+h1, h2 {
+  font-family: 'Poppins', sans-serif; }
+
+p {
+  font-family: 'Open Sans', sans-serif; }
+
+.general-button {
+  border-radius: 15px 0px;
+  font-family: 'Open Sans'; }
+
+.general-container {
+  width: 1400px;
+  margin: 0 auto; }
+
+/*
+	Header / First block
+*/
+.header {
+  padding-top: 30px; }
+  .header-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header-list {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none; }
+    .header-list__item {
+      margin-right: 40px; }
+    .header-list__reg {
+      padding: 5px 15px;
+      background: #CAA892;
+      color: #fff !important; }
+    .header-list__link {
+      text-decoration: none;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 16px;
+      color: #212121;
+      text-transform: uppercase; }
+    .header-list__active {
+      color: #646464; }
